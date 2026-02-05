@@ -1,7 +1,4 @@
 binance
 dotenv
-logging
-argparse
-time
 pandas
 streamlit
