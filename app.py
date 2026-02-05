@@ -1,5 +1,4 @@
-# streamlit run d:/PROGRAMMING/Binance-Trading-Bot/app.py
-from turtle import update
+# streamlit run Binance-Trading-Bot/app.py
 import streamlit as st
 import pandas as pd
 from bot.client import BinanceClient
