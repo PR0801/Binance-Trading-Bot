@@ -1,6 +1,5 @@
 binance
 dotenv
-os
 logging
 argparse
 time
