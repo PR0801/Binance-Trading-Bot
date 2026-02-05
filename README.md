@@ -37,7 +37,7 @@ Binance-Trading-Bot/
 │   ├── validators.py      # Validate input
 │   ├── logging_config.py  # Logging setup
 │
-├── ui.py                  # Basic Streamlit UI
+├── app.py                  # Basic Streamlit UI
 ├── logs/
 │   └── bot.log
 ├── .env
