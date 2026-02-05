@@ -40,7 +40,6 @@ Binance-Trading-Bot/
 ├── app.py                  # Basic Streamlit UI
 ├── logs/
 │   └── bot.log
-└── runtime.txt             # Version used for running the streamlit app
 ├── .env
 ├── requirements.txt
 └── README.md
