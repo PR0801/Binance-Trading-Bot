@@ -38,7 +38,7 @@ Binance-Trading-Bot/
 │   ├── logging_config.py  # Logging setup
 │
 ├── app.py                  # Basic Streamlit UI
-├── logs/
+├── logs/                   # created after excuting the bot not present from before
 │   └── bot.log
 ├── .env
 ├── requirements.txt
@@ -76,9 +76,11 @@ pip install -r requirements.txt
 1. Go to Binance Futures Testnet
    [https://testnet.binancefuture.com](https://testnet.binancefuture.com)
 
-2. Create API key & secret
+2. Click on Profile -> Demo Trading API
 
-3. Create `.env` file in root folder:
+3. Create API key & secret #Use System generated
+
+4. Create `.env` file in root folder:
 
 ```
 BINANCE_API_KEY=your_key
@@ -114,7 +116,7 @@ Quantity: 0.003
 
 ---
 
-## 🖥 Running the UI (Bonus)
+## 🖥 Running the UI
 
 ```bash
 streamlit run ui.py
@@ -187,8 +189,6 @@ Executed Qty: 0.003
 ```
 
 ---
-
-
 
   
 ## 👨‍💻 Author
