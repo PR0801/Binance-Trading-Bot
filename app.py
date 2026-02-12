@@ -21,7 +21,7 @@ st.set_page_config(
     page_icon="🤖",
     layout="wide"
 )
-st.sidebar.title("BFT Bot") 
+st.sidebar.title("Binance Trading Bot") 
 page = st.sidebar.radio(
     "Navigation",
     [
